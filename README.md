@@ -1,5 +1,5 @@
 Robust Classical Machine Learning for Biomedical Diagnosis: A Dual Evaluation on Breast Cancer Prediction and Ear-EEG Emotion Recognition
-Behnam Soufi Sharvenien(403301001)
+Behnam Soufi Sharvenien
 
 Abstract
 Reliable analysis of biomedical data is essential for diagnostic support and human-state monitoring. This study investigates the performance and robustness of classical machine-learning models across two different biomedical tasks: breast-cancer classification using the Wisconsin Diagnostic dataset and emotion recognition using in-ear EEG signals. For the cancer dataset, four traditional classifiers were evaluated under clean conditions, reduced training sets, and multiple noise intensities. The results show that KNN provides the highest stability, while Naive Bayes is strongly affected by severe noise, indicating fundamental sensitivity to distributional perturbations.
