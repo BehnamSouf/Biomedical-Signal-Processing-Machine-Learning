@@ -1,4 +1,38 @@
+# 🧠 Biomedical Signal Processing & Machine Learning
+
+## 📄 Project Overview
+This repository contains implementations of machine learning algorithms applied to biomedical datasets. The project is divided into two main modules:
+1.  **Classic ML Classifiers:** Implementing algorithms from scratch to classify Breast Cancer data.
+2.  **EEG Signal Analysis:** Advanced feature extraction and classification of In-Ear EEG signals using Deep Learning techniques.
+
+## 🛠️ Tech Stack
+- **Languages:** Python (NumPy, Pandas, Scikit-learn, SciPy)
+- **Signal Processing:** PyWavelets (Wavelet Transform), FFT, Bandpass Filters
+- ** Techniques:** Mixup Data Augmentation, Parzen Window, Gaussian Naive Bayes
+
+## 📂 Modules
+
+### 1. ML Classifiers (Breast Cancer) 🎗️
+- Implemented **KNN**, **Nearest Mean**, **Gaussian Naive Bayes**, and **Parzen Window** classifiers from scratch.
+- Evaluated performance using Accuracy and F1-Score on the sklearn Breast Cancer dataset.
+- Analyzed the effect of training data size on model performance.
+
+### 2. EEG Signal Classification 📉
+- **Preprocessing:** Applied Bandpass filters (Delta, Theta, Alpha, Beta) to isolate brainwave frequencies.
+- **Feature Extraction:** Extracted statistical features (Mean, Std) and **Wavelet Transform (db4)** coefficients.
+- **Handling Imbalance:** Implemented **Mixup Oversampling** to balance the dataset.
+- **Classification:** Used SVM/Random Forest pipelines with GridSearch for optimal performance.
+
+## 📊 Results
+- **EEG Analysis:** Successfully differentiated between mental states using extracted frequency-domain features.
+- **ML Models:** Achieved high accuracy comparisons between parametric (Naive Bayes) and non-parametric (KNN) models.
+
+## 🚀 How to Run
+1. Install dependencies:
+   ```bash
+   pip install numpy pandas scikit-learn scipy pywavelets matplotlib
 Robust Classical Machine Learning for Biomedical Diagnosis: A Dual Evaluation on Breast Cancer Prediction and Ear-EEG Emotion Recognition
+
 Behnam Soufi Sharvenien
 
 Abstract
